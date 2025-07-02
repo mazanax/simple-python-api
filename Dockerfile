@@ -4,8 +4,8 @@ WORKDIR /app
 
 RUN pip install flask
 
-COPY app.py tag commit /app/
+COPY main.py tag commit /app/
 
 EXPOSE 8000
 
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
