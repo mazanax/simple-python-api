@@ -31,4 +31,4 @@ jobs:
         with:
           file: ./Dockerfile
           push: true
-          tags: nl.registry.novps.app/test/${{ github.repository }}:latest,nl.registry.novps.app/test/${{ github.repository }}:${{ env.RELEASE_VERSION }}
+          tags: nl.registry.novps.app/test/simple-pyhon-api:latest,nl.registry.novps.app/test/simple-pyhon-api:${{ env.RELEASE_VERSION }}
